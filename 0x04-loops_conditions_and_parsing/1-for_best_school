@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-#first exercise
+# displays Best School 10 times.
 
-END=10
-for _ in $(seq 1 $END); do echo "Holberton School";done
+for (( c=1; c<=10; c++ ))
+do
+    echo "Best School"
+done
